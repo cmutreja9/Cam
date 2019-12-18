@@ -6,8 +6,9 @@ import { Dimensions } from 'react-native'
 import { Slider } from 'react-native'
 import ZoomView from './ZoomView'
 
+
 const MAX_ZOOM = 7; 
-const Zoom_F = Platform.OS === 'ios' ? 0.005 : 0.08;
+const Zoom_F = Platform.OS === 'ios' ? 0.01 : 0.1;
 
 function GetSlider(props) {
     
